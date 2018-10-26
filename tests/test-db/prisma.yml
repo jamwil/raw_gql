@@ -1,0 +1,2 @@
+endpoint: https://us1.prisma.sh/james-williams-a19027/test-db/dev
+datamodel: datamodel.prisma
