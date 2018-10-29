@@ -1,5 +1,5 @@
 import pytest
-import raw_gql
+import rawgql
 
 def test_string_query():
     raw_gql.GQL_FOLDER = 'tests/gql/'
@@ -38,3 +38,4 @@ def test_variables_query():
     assert type(r) is dict
     assert type(r['data']['users']) is list
     assert r['data']['users'][0]['name'] == 'James Williams'
+
